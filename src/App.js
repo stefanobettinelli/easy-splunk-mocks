@@ -11,7 +11,7 @@ const REQUEST_BODY = { pattern: "Request body={", code: "REQUEST_BODY", label: "
 // response stuff
 const RESPONSE_STATUS = { pattern: "Respose status=", code: "RESPONSE_STATUS", label: "Response status" };
 const RESPONSE_HEADERS = { pattern: "Respose headers=", code: "RESPONSE_HEADERS", label: "Response headers" };
-const RESPONSE_BODY = { pattern: "Responce body={", code: "RESPONSE_BODY", label: "Response body", multiline: true };
+const RESPONSE_BODY = { pattern: "Response body={", code: "RESPONSE_BODY", label: "Response body", multiline: true };
 
 const TextArea = styled.textarea`
   width: 100%;
